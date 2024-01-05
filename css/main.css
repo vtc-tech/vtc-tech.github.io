@@ -1,0 +1,43 @@
+body {
+	color: #dddddd;
+	background-color: #1c2029
+}
+
+a {
+	color: #3bf;
+	text-decoration: none;
+}
+
+header {
+	overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+header nav {
+	position: relative;
+	float: right;
+	top: 5vh;
+	right: 10vh;
+}
+
+main img {
+	position: relative;
+	height: auto;
+	width: 100%;
+}
+
+.logo {
+	position: relative;
+	float: left;
+	height: 20vh
+}
+
+.register-btn {
+	color: #dddddd;
+	background-color: #1b60f4;
+	border-radius: 4vh;
+	padding: 2vh;
+}
