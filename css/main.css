@@ -1,4 +1,5 @@
 body {
+	font-family: raleway;
 	color: #dddddd;
 	background-color: #1c2029
 }
@@ -12,13 +13,23 @@ header {
 	overflow: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 { text-align: center; }
+/* h1, h2, h3, h4, h5, h6 { text-align: center; } */
 
-h1 { font-size: 8vh; }
-h2 { font-size: 7vh; }
-h3 { font-size: 4vh; }
+/* h1 { font-size: 8vh; } */
+/* h2 { font-size: 7vh; } */
+/* h3 { font-size: 4vh; } */
 
 .title { color: aqua };
+
+.header {
+	text-align: center;
+}
+.header-section {
+	text-align: center;
+}
+
+.header-section h3 { font-size: 4vh; }
+.header-section h1 { font-size: 8vh; }
 
 header nav {
 	position: relative;
@@ -59,6 +70,7 @@ main img {
 }
 
 .register-btn {
+	font-size: 4vh;
 	color: #dddddd;
 	background-color: #1b60f4;
 	border-radius: 7vh;
@@ -73,12 +85,10 @@ main img {
 	text-decoration: none;
 }
 
-/* .about-us { */
-/* 	width: auto; */
-/* 	background-image: url("/assets/futuristic-ai-landscape.png"); */
-/* } */
+.about-us-section h2 { font-size: 6vh; }
+.about-us-section p { font-size: 3vh; }
 
-.container {
+.about-us-section {
 	position: relative;
 	text-align: center;
 }
@@ -101,13 +111,18 @@ main img {
 		height: 12vh;
 	}
 	.register-btn {
+		font-size: 2.5vh;
 		right: 3vh;
 	}
-	h1 { font-size: 5vh; }
-	h2 { font-size: 4vh; }
-	h3 { font-size: 2vh; }
+
+.header-section h3 { font-size: 2vh; }
+.header-section h1 { font-size: 4vh; }
+
+.about-us-section h2 { font-size: 4vh; }
+.about-us-section p { font-size: 2vh; }
+
 }
 
-/* @media screen and (max-width: 1000px) { */
-/* 	body { font-size: 1.5vh; } */
+/* @media screen and (max-width: 1200px) { */
+/* 	p { font-size: 4vh; } */
 /* } */
