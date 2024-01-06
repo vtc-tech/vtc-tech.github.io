@@ -12,12 +12,11 @@ header {
 	overflow: hidden;
 }
 
-
 h1, h2, h3, h4, h5, h6 { text-align: center; }
 
-h1 { font-size: 8vh; }
-h2 { font-size: 7vh; }
-h3 { font-size: 4vh; }
+h1 { font-size: 5vh; }
+h2 { font-size: 4vh; }
+h3 { font-size: 2vh; }
 
 .title { color: aqua };
 
