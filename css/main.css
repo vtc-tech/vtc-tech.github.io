@@ -18,7 +18,9 @@ h1 { font-size: 5vh; }
 h2 { font-size: 4vh; }
 h3 { font-size: 2vh; }
 
-.title { color: aqua };
+.title {
+	color: aqua
+};
 
 header nav {
 	position: relative;
