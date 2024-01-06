@@ -38,13 +38,7 @@ main img {
 	width: 100%;
 }
 
-.logo {
-	position: relative;
-	float: left;
-	height: 20vh
-}
-
-
+.logo { height: 20vh }
 .logo-back {
 	position: relative;
 	float: left;
@@ -74,4 +68,21 @@ main img {
 	transform: scale(1.2);
 	transition: transform 0.3s;
 	text-decoration: none;
+}
+
+/* .about-us { */
+/* 	width: auto; */
+/* 	background-image: url("/assets/futuristic-ai-landscape.png"); */
+/* } */
+
+.container {
+	position: relative;
+	text-align: center;
+}
+
+.top-left {
+	position: absolute;
+	top: 4vh;
+	left: 4vh;
+	width: 50%;
 }
