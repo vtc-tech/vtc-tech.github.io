@@ -1,3 +1,3 @@
-# BITS
+# BITS-24
 
-Markup and code files for BITS 2024 website
+Code and markup files for BITS 2024 website

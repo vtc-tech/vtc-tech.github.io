@@ -12,15 +12,24 @@ header {
 	overflow: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	text-align: center;
-}
+
+h1, h2, h3, h4, h5, h6 { text-align: center; }
+
+h1 { font-size: 8vh; }
+h2 { font-size: 7vh; }
+h3 { font-size: 4vh; }
+
+.title { color: aqua };
 
 header nav {
 	position: relative;
 	float: right;
-	top: 5vh;
-	right: 10vh;
+}
+
+header nav a {
+	position: relative;
+	float: right;
+	right: 8vh;
 }
 
 main img {
@@ -35,9 +44,34 @@ main img {
 	height: 20vh
 }
 
+
+.logo-back {
+	position: relative;
+	float: left;
+	height: 20vh;
+	width: 20vh;
+	background-color: #dddddd;
+	border-radius: 50%;
+}
+
+.vartak-logo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 20vh;
+	height: 20vh;
+}
+
 .register-btn {
 	color: #dddddd;
 	background-color: #1b60f4;
-	border-radius: 4vh;
-	padding: 2vh;
+	border-radius: 7vh;
+	padding: 3vh;
+}
+
+.register-btn:hover {
+	background-color: #2b70f4;
+	transform: scale(1.2);
+	transition: transform 0.3s;
+	text-decoration: none;
 }
