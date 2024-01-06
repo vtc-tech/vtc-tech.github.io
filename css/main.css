@@ -1,7 +1,8 @@
 body {
 	font-family: raleway;
 	color: #dddddd;
-	background-color: #1c2029
+	background-color: #1c2029;
+	font-size: 1vw;
 }
 
 a {
@@ -15,9 +16,9 @@ header {
 
 /* h1, h2, h3, h4, h5, h6 { text-align: center; } */
 
-/* h1 { font-size: 8vh; } */
-/* h2 { font-size: 7vh; } */
-/* h3 { font-size: 4vh; } */
+/* h1 { font-size: 8vw; } */
+/* h2 { font-size: 7vw; } */
+/* h3 { font-size: 4vw; } */
 
 .title { color: aqua };
 
@@ -28,8 +29,9 @@ header {
 	text-align: center;
 }
 
-.header-section h3 { font-size: 4vh; }
 .header-section h1 { font-size: 8vh; }
+.header-section h2 { font-size: 6vh; }
+.header-section h3 { font-size: 4vh; }
 
 header nav {
 	position: relative;
@@ -85,23 +87,23 @@ main img {
 	text-decoration: none;
 }
 
-.about-us-section h2 { font-size: 6vh; }
-.about-us-section p { font-size: 3vh; }
-
 .about-us-section {
 	position: relative;
 	text-align: center;
 }
 
+.about-us-section h2 { font-size: 4vw; }
+.about-us-section p { font-size: 2vw; }
+
 .top-left {
 	position: absolute;
-	top: 4vh;
-	left: 4vh;
+	top: 12vw;
+	left: 4vw;
 	width: 50%;
 }
 
 @media screen and (max-width: 800px) {
-	body { font-size: 1vh; }
+	body { font-size: 1vw; }
 	.logo {
 		width: 12vh;
 		height: 12vh;
@@ -114,12 +116,25 @@ main img {
 		font-size: 2.5vh;
 		right: 3vh;
 	}
+	.about-us-back {
+		height: 50vh;
+		width: 100%;
+	}
+	.about-us-img {
+		object-fit: cover;
+		height: 100%;
+		width: 100%;
+	}
 
-.header-section h3 { font-size: 2vh; }
-.header-section h1 { font-size: 4vh; }
+	.header-section h3 { font-size: 2vw; }
+	.header-section h1 { font-size: 4vw; }
 
-.about-us-section h2 { font-size: 4vh; }
-.about-us-section p { font-size: 2vh; }
+	.top-left {
+		width: 80%;
+		font-weight: bold;
+	}
+	.about-us-section h2 { font-size: 4vh; }
+	.about-us-section p { font-size: 2vh; }
 
 }
 
