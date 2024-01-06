@@ -2,7 +2,7 @@ body {
 	font-family: raleway;
 	color: #dddddd;
 	background-color: #1c2029;
-	font-size: 1vw;
+	font-size: 1vh;
 }
 
 a {
@@ -20,18 +20,32 @@ header {
 /* h2 { font-size: 7vw; } */
 /* h3 { font-size: 4vw; } */
 
-.title { color: aqua };
+.title {
+	color: aqua
+}
+
+;
 
 .header {
 	text-align: center;
 }
+
 .header-section {
 	text-align: center;
+	margin-top: 2vh;
 }
 
-.header-section h1 { font-size: 8vh; }
-.header-section h2 { font-size: 6vh; }
-.header-section h3 { font-size: 4vh; }
+.header-section h1 {
+	font-size: 8vh;
+}
+
+.header-section h2 {
+	font-size: 6vh;
+}
+
+.header-section h3 {
+	font-size: 4vh;
+}
 
 header nav {
 	position: relative;
@@ -54,6 +68,7 @@ main img {
 	height: 20vh;
 	width: 20vh;
 }
+
 .logo-back {
 	margin-top: 2vh;
 	margin-left: 4vh;
@@ -87,13 +102,26 @@ main img {
 	text-decoration: none;
 }
 
+section {
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+	padding-left: 2vh;
+	padding-right: 2vh;
+}
+
+
 .about-us-section {
 	position: relative;
 	text-align: center;
 }
 
-.about-us-section h2 { font-size: 4vw; }
-.about-us-section p { font-size: 2vw; }
+.about-us-section h2 {
+	font-size: 4vw;
+}
+
+.about-us-section p {
+	font-size: 2vw;
+}
 
 .top-left {
 	position: absolute;
@@ -103,68 +131,81 @@ main img {
 }
 
 /*cards css*/
-.cards{
+.cards {
 	display: flex;
 	flex-direction: row;
-  }
-  .card{
+}
+
+.card {
 	position: relative;
 	width: 300px;
 	height: 200px;
 	border-radius: 10px;
-	box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
 	transition: 0.3s;
-	padding:30px 50px ;
+	padding: 30px 50px;
 	background-color: antiquewhite;
 	margin: 100px 60px;
-  }
-  .imgbox{
+}
+
+.imgbox {
 	position: relative;
-	width:100%;
+	width: 100%;
 	height: 100%;
 	transform: translateY(-80px);
 	z-index: 99;
-  }
-  .event-header{
+}
+
+.event-header {
 	font-size: 8vh;
 	text-align: center;
-  }
-  .content{
-  padding: 10px 20px;
-  text-align: center;
-  transform: translateY(-100px);
-  opacity: 0;
 }
-.card{
-  cursor: pointer;
+
+.content {
+	padding: 10px 20px;
+	text-align: center;
+	transform: translateY(-100px);
+	opacity: 0;
 }
-.content p{
-  margin-top: 9px;
-  font-size: 16px;
-  font-weight: 600;
-  color: black;
+
+.card {
+	cursor: pointer;
 }
-.content h2{
-  color:darkblue;
-  font-weight: bolder;
+
+.content p {
+	margin-top: 9px;
+	font-size: 16px;
+	font-weight: 600;
+	color: black;
 }
-.card:hover{
-  height: 700px;
+
+.content h2 {
+	color: darkblue;
+	font-weight: bolder;
 }
-.card:hover > .content{
-  opacity: 1;
-  transform: translateY(0px);
+
+.card:hover {
+	height: 700px;
 }
-.card:nth-child(1){
-    background-color: aquamarine;
+
+.card:hover>.content {
+	opacity: 1;
+	transform: translateY(0px);
 }
-.card:nth-child(2){
-    background-color: khaki;
+
+.card:nth-child(1) {
+	background-color: aquamarine;
 }
-.card:nth-child(3){
-    background-color: lavenderblush;
+
+.card:nth-child(2) {
+	background-color: khaki;
 }
-.content button{
+
+.card:nth-child(3) {
+	background-color: lavenderblush;
+}
+
+.content button {
 	height: 7vh;
 	width: 20vh;
 	background-color: black;
@@ -174,91 +215,176 @@ main img {
 	appearance: none;
 	border: none;
 }
-img{
+
+.about-us-section img {
+	width: 100%;
+	border-radius: 4vh;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.event-section img {
 	width: 100%;
 	border-radius: 10px;
-	box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
-  }
-.sponsers-header{
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.sponsers-header {
 	font-size: 5vh;
 	text-align: center;
 }
-.sponsers h2{
+
+.sponsers h2 {
 	margin-left: 50px;
 }
-.sponsers-images{
+
+.sponsers-images {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.sponsers-images img{
+
+.sponsers-images img {
 	height: 20vh;
 	width: 50vh;
 }
 
+footer {
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	padding-right: 6vh;
+	padding-left: 6vh;
+	background-image:
+		linear-gradient(
+			rgba(0, 0, 0, 0.7),
+			rgba(0, 0, 0, 0.7)
+		),
+		url("/assets/futuristic-ai-potrait.png");
+	font-size: 3vh;
+}
+
+footer .footer-title {
+	display: flex;
+	align-items: center;
+}
+
+footer .logo-back {
+	margin: 4vh;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+footer .title-header {
+	color: #aaccff;
+	font-weight: bold;
+	font-size: 8vh;
+}
+
+footer h3 {
+	font-size: 5vh;
+	color: #ccddff;
+}
+
+.icon {
+	margin: 0.5rem;
+	height: 1.2rem;
+	width: 1.2rem;
+}
+
+.instagram-id {
+	color: #dddddd;
+	font-weight: bold;
+}
+
 @media screen and (max-width: 800px) {
-	body { font-size: 1vw; }
+	body {
+		font-size: 1vw;
+	}
+
 	.logo {
 		width: 12vh;
 		height: 12vh;
 	}
+
 	.logo-back {
 		width: 12vh;
 		height: 12vh;
 	}
+
 	.register-btn {
 		padding: 2vh;
 		font-size: 2.5vh;
 		right: 3vh;
 	}
+
+	.header-section h1 { font-size: 6vw; }
+	.header-section h3 { font-size: 4vw; }
+
 	.about-us-back {
 		height: 50vh;
 		width: 100%;
 	}
+
 	.about-us-img {
 		object-fit: cover;
 		height: 100%;
 		width: 100%;
 	}
 
-	.header-section h1 { font-size: 6vw; }
-	.header-section h3 { font-size: 4vw; }
-
 	.top-left {
 		width: 80%;
 		font-weight: bold;
 	}
+
 	.about-us-section h2 { font-size: 4vh; }
 	.about-us-section p { font-size: 2vh; }
-	.cards{
+
+	.cards {
 		flex-direction: column;
 	}
-	.card{
+
+	.card {
 		width: 150px;
-		height:150px ;
+		height: 150px;
 	}
-	.card:hover{
+
+	.card:hover {
 		height: 800px;
 	}
-	.content h2{
+
+	.content h2 {
 		font-size: 3vh;
 	}
-	.content button{
+
+	.content button {
 		height: 4vh;
 		width: 15vh;
 	}
-	.event-header{
+
+	.event-header {
 		font-size: 5vh;
 		text-align: center;
 	}
-	.sponsers h2{
+
+	.sponser-section {
+		margin-bottom: 8vh;
+	}
+
+	.sponsers h2 {
 		font-size: 3vh;
 	}
-	.sponsers-images img{
+
+	.sponsers-images img {
 		margin-top: 50px;
 		height: 10vh;
 		width: 30vh;
 	}
+
+	footer { padding: 2vh }
+	footer .title-header { font-size: 3.5vh; }
+	footer h3 { font-size: 3vh; }
+	footer { font-size: 2vh; }
 
 }
 
