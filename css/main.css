@@ -227,6 +227,10 @@ section {
 	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
 }
 
+.sponser-section {
+	margin-bottom: 8vh;
+}
+
 .sponsers-header {
 	font-size: 5vh;
 	text-align: center;
@@ -258,6 +262,7 @@ footer {
 			rgba(0, 0, 0, 0.7)
 		),
 		url("/assets/futuristic-ai-potrait.png");
+	background-size: 100%;
 	font-size: 3vh;
 }
 
@@ -365,10 +370,6 @@ footer h3 {
 	.event-header {
 		font-size: 5vh;
 		text-align: center;
-	}
-
-	.sponser-section {
-		margin-bottom: 8vh;
 	}
 
 	.sponsers h2 {
