@@ -76,7 +76,7 @@ main img {
 	color: #dddddd;
 	background-color: #1b60f4;
 	border-radius: 7vh;
-	margin-top: 2vh;
+	margin-top: 4vh;
 	padding: 3vh;
 }
 
@@ -125,6 +125,10 @@ main img {
 	transform: translateY(-80px);
 	z-index: 99;
   }
+  .event-header{
+	font-size: 8vh;
+	text-align: center;
+  }
   .content{
   padding: 10px 20px;
   text-align: center;
@@ -160,11 +164,37 @@ main img {
 .card:nth-child(3){
     background-color: lavenderblush;
 }
-  img{
+.content button{
+	height: 7vh;
+	width: 20vh;
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	outline: none;
+	appearance: none;
+	border: none;
+}
+img{
 	width: 100%;
 	border-radius: 10px;
 	box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
   }
+.sponsers-header{
+	font-size: 5vh;
+	text-align: center;
+}
+.sponsers h2{
+	margin-left: 50px;
+}
+.sponsers-images{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sponsers-images img{
+	height: 20vh;
+	width: 50vh;
+}
 
 @media screen and (max-width: 800px) {
 	body { font-size: 1vw; }
@@ -177,6 +207,7 @@ main img {
 		height: 12vh;
 	}
 	.register-btn {
+		padding: 2vh;
 		font-size: 2.5vh;
 		right: 3vh;
 	}
@@ -190,8 +221,8 @@ main img {
 		width: 100%;
 	}
 
-	.header-section h3 { font-size: 2vw; }
-	.header-section h1 { font-size: 4vw; }
+	.header-section h1 { font-size: 6vw; }
+	.header-section h3 { font-size: 4vw; }
 
 	.top-left {
 		width: 80%;
@@ -208,7 +239,26 @@ main img {
 	}
 	.card:hover{
 		height: 800px;
-	  }
+	}
+	.content h2{
+		font-size: 3vh;
+	}
+	.content button{
+		height: 4vh;
+		width: 15vh;
+	}
+	.event-header{
+		font-size: 5vh;
+		text-align: center;
+	}
+	.sponsers h2{
+		font-size: 3vh;
+	}
+	.sponsers-images img{
+		margin-top: 50px;
+		height: 10vh;
+		width: 30vh;
+	}
 
 }
 
