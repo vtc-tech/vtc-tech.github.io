@@ -15,12 +15,6 @@ header {
 	overflow: hidden;
 }
 
-/* h1, h2, h3, h4, h5, h6 { text-align: center; } */
-
-/* h1 { font-size: 8vw; } */
-/* h2 { font-size: 7vw; } */
-/* h3 { font-size: 4vw; } */
-
 .title {
 	color: aqua
 }
@@ -137,12 +131,6 @@ section {
 	text-align: center;
 }
 
-.cards {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
 .card {
 	width: 50vh;
 	height: 100vh;
@@ -208,6 +196,10 @@ section {
 .card:nth-child(2) {
 	background-color: khaki;
 }
+
+/* .card:nth-child(2) img { */
+/* 	object-fit: fill; */
+/* } */
 
 .card:nth-child(3) {
 	background-color: lavenderblush;
@@ -282,20 +274,18 @@ section {
 	text-align: center;
 }
 
-.sponsors h2 {
-	margin-left: 50px;
+.sponsor-section h2 {
 	font-size: 4vh;
 }
 
-.sponsors-images {
-	display: flex-wrap;
-	justify-content: center;
-	align-items: center;
-}
-
-.sponsors-images img {
+.sponsors img {
 	width: 50vh;
 	padding: 5vh;
+}
+
+.sponsors img:hover {
+	transform: scale(1.2);
+	transition: transform 0.3s;
 }
 
 .contact-details td {
@@ -327,6 +317,8 @@ footer .logo-back {
 .flex {
 	display: flex;
 	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 footer .title-header {
@@ -429,11 +421,11 @@ footer h3 {
 		text-align: center;
 	}
 
-	.sponsors h2 {
+	.sponsor-section h2 {
 		font-size: 3vh;
 	}
 
-	.sponsors-images img {
+	.sponsors img {
 		margin-top: 50px;
 		height: 10vh;
 		width: 30vh;
