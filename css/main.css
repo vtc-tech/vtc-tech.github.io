@@ -1,0 +1,468 @@
+body {
+	font-family: raleway;
+	color: #dddddd;
+	background-color: #1c2029;
+	font-size: 3vh;
+	margin: 0;
+}
+
+a {
+	color: #3bf;
+	text-decoration: none;
+}
+
+header {
+	overflow: hidden;
+}
+
+.title {
+	color: aqua
+}
+
+;
+
+.header {
+	text-align: center;
+}
+
+.header-section {
+	text-align: center;
+	margin-top: 2vh;
+}
+
+.header-section h1 {
+	font-size: 8vh;
+}
+
+.header-section h2 {
+	font-size: 6vh;
+}
+
+.header-section h3 {
+	font-size: 4vh;
+}
+
+header nav {
+	position: relative;
+	float: right;
+}
+
+header nav a {
+	position: relative;
+	float: right;
+	right: 8vh;
+}
+
+main img {
+	position: relative;
+	height: auto;
+	width: 100%;
+}
+
+.logo {
+	height: 20vh;
+	width: 20vh;
+}
+
+.logo-back {
+	margin-top: 2vh;
+	margin-left: 4vh;
+	position: relative;
+	float: left;
+	height: 20vh;
+	width: 20vh;
+	background-color: #dddddd;
+	border-radius: 50%;
+}
+
+.vartak-logo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.register-btn {
+	font-size: 4vh;
+	color: #dddddd;
+	background-color: #1b60f4;
+	border-radius: 7vh;
+	margin-top: 4vh;
+	padding: 3vh;
+}
+
+.register-btn:hover {
+	background-color: #2b70f4;
+	transform: scale(1.2);
+	transition: transform 0.3s;
+	text-decoration: none;
+}
+
+section {
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+	padding-left: 2vh;
+	padding-right: 2vh;
+}
+
+
+.about-us-section {
+	position: relative;
+	text-align: center;
+}
+
+.about-us-section h2 {
+	font-size: 4vw;
+}
+
+.about-us-section p {
+	font-size: 2vw;
+}
+
+.top-left {
+	position: absolute;
+	top: 12vw;
+	left: 4vw;
+	width: 50%;
+}
+
+/*cards css*/
+.event-header {
+	font-size: 6vh;
+	text-align: center;
+}
+
+.card {
+	width: 50vh;
+	height: 100vh;
+	background-color: aqua;
+	border-radius: 10px;
+	margin: 4vh;
+	box-shadow: 0px 3px 4px white;
+}
+
+.card:hover {
+	transform: scale(1.1);
+	transition: transform 0.3s;
+}
+
+.image {
+	width: 100%;
+	height: 40vh;
+	margin: auto;
+}
+
+.image img {
+	object-fit: cover;
+	border-radius: 10px 10px 0px 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.content h3 {
+	text-align: center;
+	font-size: 4vh;
+	color: black;
+}
+
+.content h4 {
+	text-align: center;
+	font-size: 3vh;
+	color: black;
+}
+
+.content {
+	font-size: 3vh;
+	color: black;
+	margin: 2vh;
+	margin-bottom: 5vh;
+}
+
+.register-now-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.register-now-btn a {
+	color: #dddddd;
+	background-color: black;
+	font-size: 3vh;
+	font-weight: bold;
+	padding: 2vh;
+	border-radius: 10vh;
+}
+
+.register-now-btn a:hover {
+	color: black;
+	border: 0.2px solid black;
+	background-color: transparent;
+}
+
+.card:nth-child(1) {
+	background-color: aquamarine;
+}
+
+.card:nth-child(2) {
+	background-color: khaki;
+}
+
+/* .card:nth-child(2) img { */
+/* 	object-fit: fill; */
+/* } */
+
+.card:nth-child(3) {
+	background-color: lavenderblush;
+}
+
+.card:nth-child(4) {
+	background-color: aquamarine;
+}
+
+.card:nth-child(5) {
+	background-color: khaki;
+}
+
+.card:nth-child(6) {
+	background-color: lavenderblush;
+}
+
+.card:nth-child(7) {
+	background-color: aquamarine;
+}
+
+.card:nth-child(8) {
+	background-color: khaki;
+}
+
+.card:nth-child(9) {
+	background-color: lavenderblush;
+}
+
+.card:nth-child(10) {
+	background-color: aquamarine;
+}
+
+.card:nth-child(11) {
+	background-color: khaki;
+}
+
+.card:nth-child(12) {
+	background-color: lavenderblush;
+}
+
+.card:nth-child(13) {
+	background-color: aquamarine;
+}
+
+.card:nth-child(14) {
+	background-color: khaki;
+}
+
+.card:nth-child(15) {
+	background-color: lavenderblush;
+}
+
+.about-us-section img {
+	width: 100%;
+	border-radius: 4vh;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.event-section img {
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.sponsor-section {
+	margin-bottom: 8vh;
+}
+
+.sponsors-header {
+	font-size: 5vh;
+	text-align: center;
+}
+
+.sponsor-section h2 {
+	font-size: 4vh;
+}
+
+.sponsors img {
+	width: 50vh;
+	padding: 5vh;
+}
+
+.sponsors img:hover {
+	transform: scale(1.2);
+	transition: transform 0.3s;
+}
+
+.contact-details td {
+	padding: 0vh 1vh;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+footer {
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	padding-right: 6vh;
+	padding-left: 6vh;
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.7),
+			rgba(0, 0, 0, 0.7)),
+		url("/assets/futuristic-ai-potrait.png");
+	background-size: 100%;
+	font-size: 3vh;
+}
+
+footer {
+	text-align: center;
+}
+
+footer .logo-back {
+	margin: 4vh;
+}
+
+footer .title-header {
+	color: #aaccff;
+	font-weight: bold;
+	font-size: 8vh;
+}
+
+footer h3 {
+	font-size: 5vh;
+	color: #ccddff;
+}
+
+footer .footer-body {
+	justify-content: space-around;
+}
+
+.icon {
+	margin: 0.5rem;
+	height: 1.2rem;
+	width: 1.2rem;
+}
+
+.instagram-id {
+	color: #dddddd;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		font-size: 1vw;
+	}
+
+	.logo {
+		width: 12vh;
+		height: 12vh;
+	}
+
+	.logo-back {
+		width: 12vh;
+		height: 12vh;
+	}
+
+	.register-btn {
+		padding: 2vh;
+		font-size: 2.5vh;
+		right: 3vh;
+	}
+
+	.header-section h1 {
+		font-size: 6vw;
+	}
+
+	.header-section h3 {
+		font-size: 4vw;
+	}
+
+	.about-us-back {
+		height: 50vh;
+		width: 100%;
+	}
+
+	.about-us-img {
+		object-fit: cover;
+		height: 100%;
+		width: 100%;
+	}
+
+	.top-left {
+		width: 80%;
+		font-weight: bold;
+	}
+
+	.about-us-section h2 {
+		font-size: 4vh;
+	}
+
+	.about-us-section p {
+		font-size: 2vh;
+	}
+
+	.card {
+		height: 80vh;
+	}
+
+	.content button {
+		margin-left: 120px;
+	}
+
+	.content h3 {
+		font-size: 3vh;
+	}
+
+	.content {
+		font-size: 2vh;
+	}
+
+	.register-now-btn a {
+		font-size: 2vh
+	}
+
+	.event-header {
+		font-size: 5vh;
+		text-align: center;
+	}
+
+	.sponsor-section h2 {
+		font-size: 3vh;
+	}
+
+	.sponsors img {
+		margin-top: 50px;
+		height: 10vh;
+		width: 30vh;
+	}
+
+	footer {
+		padding: 2vh
+	}
+
+	footer .title-header {
+		font-size: 3.5vh;
+	}
+
+	footer h3 {
+		font-size: 3vh;
+	}
+
+	footer {
+		font-size: 2vh;
+	}
+
+}
+
+
+
+/* @media screen and (max-width: 1200px) { */
+/* 	p { font-size: 4vh; } */
+/* } */
