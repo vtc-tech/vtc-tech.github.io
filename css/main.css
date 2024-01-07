@@ -170,7 +170,7 @@ section {
 	color: black;
 }
 
-.content p {
+.content {
 	font-size: 3vh;
 	color: black;
 	margin: 2vh;
@@ -342,7 +342,6 @@ footer h3 {
 
 footer .footer-body {
 	justify-content: space-around;
-	align-items: start;
 }
 
 .icon {
@@ -421,11 +420,11 @@ footer .footer-body {
 		font-size: 3vh;
 	}
 
-	.content p {
+	.content {
 		font-size: 2vh;
 	}
 
-	.register-now-btn {
+	.register-now-btn a {
 		font-size: 2vh
 	}
 
