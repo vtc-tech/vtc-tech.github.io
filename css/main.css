@@ -30,8 +30,6 @@ header {
 	color: aqua
 }
 
-;
-
 .header {
 	text-align: center;
 }
@@ -85,7 +83,6 @@ main img {
 	color: #dddddd;
 	background-color: #1b60f4;
 	border-radius: 7vh;
-	margin-top: 4vh;
 	padding: 3vh;
 }
 
@@ -142,10 +139,6 @@ section {
 	align-items: flex-end; */
 	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
 	transition: 0.5s ease-in-out;
-}
-
-.card:hover {
-	transform: translateY(4vh);
 }
 
 .card:before {
