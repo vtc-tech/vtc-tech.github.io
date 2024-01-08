@@ -111,7 +111,7 @@ section {
 }
 
 .about-us-section p {
-	font-size: 2vw;
+	font-size: 3vw;
 }
 
 .about-us-section img {
@@ -342,8 +342,17 @@ footer .footer-body {
 		width: 100%;
 	}
 
+	.about-us-section h2 {
+		font-size: 6vw;
+	}
+
+	.about-us-section p {
+		font-size: 5vw;
+	}
+
 	.top-left {
-		width: 80%;
+		padding-left: 2vh;
+		width: 55%;
 		font-weight: bold;
 	}
 
@@ -366,14 +375,6 @@ footer .footer-body {
 
 	.info {
 		font-size: 2.5vh;
-	}
-
-	.about-us-section h2 {
-		font-size: 6vw;
-	}
-
-	.about-us-section p {
-		font-size: 4vw;
 	}
 
 	.event-header {
