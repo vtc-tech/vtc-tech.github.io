@@ -7,10 +7,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="assets/vtc-logo.png" rel="shortcut icon" type="image/x-icon">
 	<link href="css/main.css" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
-	<header>
+
+	<script>
+		AOS.init();
+	</script>
+
+	<header data-aos="fade-down">
 		<div class="logo-back">
 			<a href="/"><img class="logo" src="assets/vtc-logo.png" alt="logo" /></a>
 		</div>
@@ -21,40 +28,38 @@
 
 	<main>
 
-		<section class="header-section">
+		<section data-aos="fade-up" data-aos-duration="1500" data-aos-offset="0" class="header-section">
 			<div class="vartak-logo logo">
 				<img src="assets/vartak-logo2.png" alt="vartak logo">
 			</div>
-			<h3>Vidyavardhini's<br>
+			<h5 data-aos="fade-left" data-aos-duration="1500">Vidyavardhini's<br>
 				Annasaheb Vartak College of Arts,<br>
 				Kedarnath Malhotra College of Commerce,<br>
-				E. S. Andrades College of Science </h3>
-			<h1 class="title">BITS-24 Tech Fest</h1>
-			<h3>12<sup>th</sup> and 13<sup>th</sup> JANUARY 2024</h3>
+				E. S. Andrades College of Science </h5>
+			<h1 data-aos="fade-right" class="title" data-aos-duration="1500">BITS-24 Tech Fest</h1>
+			<h5 data-aos="fade-left" data-aos-duration="1500">12<sup>th</sup> and 13<sup>th</sup> JANUARY 2024</h5>
 		</section>
 
-		<section class="about-us-section">
+		<section data-aos="fade-up" class="about-us-section">
 			<div class="about-us-back">
 				<img src="assets/futuristic-ai-landscape.png" alt="futuristic ai image" class="about-us-img">
 			</div>
 			<div class="top-left">
 				<h2>About us</h2>
-				<p> We are the students of Vartak college and members of vartak college tech club. We strive to orient students
-					of vartak college towards a better technological future. We have been trying to bring back this tech event
-					since past 2 years which was once organised under vartak integrity.</p>
+				<p>Coding club to establish a programming culture on campus, reaching every student passionate about programming. Coding club tries to solve problems using technology and innovation.</p>
 			</div>
 		</section>
 
-		<section class="event-section">
-			<h3 class="event-header">Our Events</h3>
+		<section data-aos="fade-up" class="event-section">
+			<h2>🎯 Our Events</h2>
 			<div class="cards flex">
 
-				<div class="card">
-					<div class="image">
+				<div data-aos="fade-up" class="card">
+					<div class="image flex">
 						<img src="assets/array-logo2.png" alt="">
+						<h5>Solving Arrays</h5>
 					</div>
-					<div class="content">
-						<h3>Solving Arrays</h3>
+					<div class="info">
 						<p>
 							<ul>
 								<li>💵 <b>Rs. 20/-</b></li>
@@ -62,17 +67,17 @@
 							</ul>
 						</p>
 						<div class="register-now-btn">
-							<a href="https://tinyurl.com/bits24reg">Register Now</a>
+							<a href="https://tinyurl.com/bits24reg" class="btn">Register Now</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="card">
-					<div class="image">
+				<div data-aos="fade-up" class="card">
+					<div class="image flex">
 						<img src="assets/webdev-logo.jpeg" alt="">
+						<h5>Web Design Fiesta</h5>
 					</div>
-					<div class="content">
-						<h3>Web Design Fiesta</h3>
+					<div class="info">
 						<p>
 							<ul>
 								<li>💵 <b>Rs. 20/-</b></li>
@@ -80,17 +85,17 @@
 							</ul>
 						</p>
 						<div class="register-now-btn">
-							<a href="https://tinyurl.com/bits24reg">Register Now</a>
+							<a href="https://tinyurl.com/bits24reg" class="btn">Register Now</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="card">
-					<div class="image">
+				<div data-aos="fade-up" class="card">
+					<div class="image flex">
 						<img src="assets/database-logo.jpeg" alt="">
+						<h5>Data Dynasty</h5>
 					</div>
-					<div class="content">
-						<h3>Data Dynasty</h3>
+					<div class="info">
 						<p>
 							<ul>
 								<li>💵 <b>Rs. 15/-</b></li>
@@ -98,17 +103,17 @@
 							</ul>
 						</p>
 						<div class="register-now-btn">
-							<a href="https://tinyurl.com/bits24reg">Register Now</a>
+							<a href="https://tinyurl.com/bits24reg" class="btn">Register Now</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="card">
-					<div class="image">
+				<div data-aos="fade-up" class="card">
+					<div class="image flex">
 						<img src="assets/debug-logo.jpeg" alt="">
+						<h5>Debug Me</h5>
 					</div>
-					<div class="content">
-						<h3>Debug Me</h3>
+					<div class="info">
 						<p>
 							<ul>
 								<li>💵 <b>Rs. 15/-</b></li>
@@ -116,17 +121,17 @@
 							</ul>
 						</p>
 						<div class="register-now-btn">
-							<a href="https://tinyurl.com/bits24reg">Register Now</a>
+							<a href="https://tinyurl.com/bits24reg" class="btn">Register Now</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="card">
-					<div class="image">
+				<div data-aos="fade-up" class="card">
+					<div class="image flex">
 						<img src="assets/quiz-logo.jpeg" alt="">
+						<h5>AI And General Quiz</h5>
 					</div>
-					<div class="content">
-						<h3>AI And General Quiz</h3>
+					<div class="info">
 						<p>
 							<ul>
 								<li>💵 <b>Rs. 15/-</b></li>
@@ -134,17 +139,17 @@
 							</ul>
 						</p>
 						<div class="register-now-btn">
-							<a href="https://tinyurl.com/bits24reg">Register Now</a>
+							<a href="https://tinyurl.com/bits24reg" class="btn">Register Now</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="card">
-					<div class="image">
+				<div data-aos="fade-up" class="card">
+					<div class="image flex">
 						<img src="assets/shortvideologo.jpeg" alt="">
+						<h5>Social Message Video</h5>
 					</div>
-					<div class="content">
-						<h3>Social Message Video</h3>
+					<div class="info">
 						<p>
 							<ul>
 								<li>💵 <b>Free</b> Entry</li>
@@ -152,36 +157,36 @@
 							</ul>
 						</p>
 						<div class="register-now-btn">
-							<a href="https://tinyurl.com/bits24reg">Register Now</a>
+							<a href="https://tinyurl.com/bits24reg" class="btn">Register Now</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="card">
-					<div class="image">
+				<div data-aos="fade-up" class="card">
+					<div class="image flex">
 						<img src="assets/bgmi-logo.jpeg" alt="">
+						<h5>BGMI</h5>
 					</div>
-					<div class="content">
-						<h3>BGMI</h3>
+					<div class="info">
 						<p>
 							<ul>
 								<li><b>SQUAD CLASSIC</b> (<b>Rs. 120/-</b> per squad)</li>
-								<li><b>DUO CLASSIC</b> (<b>Rs. 120/-</b> per duo)</li>
-								<li><b>SQUAD TDM</b> (<b>Rs. 120/-</b> per squad)</li>
+								<li><b>DUO CLASSIC</b> (<b>Rs. 60/-</b> per duo)</li>
+								<li><b>SQUAD TDM</b> (<b>Rs. 100/-</b> per squad)</li>
 							</ul>
 						</p>
 						<div class="register-now-btn">
-							<a href="https://tinyurl.com/bits24bgmi">Register Now</a>
+							<a href="https://tinyurl.com/bits24bgmi" class="btn">Register Now</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="card">
-					<div class="image">
+				<div data-aos="fade-up" class="card">
+					<div class="image flex">
 						<img src="assets/presentation-logo.jpeg" alt="">
+						<h5>Presentation with AI</h5>
 					</div>
-					<div class="content">
-						<h3>Presentation with AI</h3>
+					<div class="info">
 						<p>
 							<ul>
 								<li>💵 <b>Free</b> Entry</li>
@@ -190,17 +195,17 @@
 							</ul>
 						</p>
 						<div class="register-now-btn">
-							<a href="https://tinyurl.com/bits24reg">Register Now</a>
+							<a href="https://tinyurl.com/bits24reg" class="btn">Register Now</a>
 						</div>
 					</div>
 				</div>
 
-				<!-- <div class="card"> -->
-				<!-- 	<div class="image"> -->
+				<!-- <div data-aos="fade-up" class="card"> -->
+				<!-- 	<div class="image flex"> -->
 				<!-- 		<img src="assets/startuplogo.jpeg" alt=""> -->
+				<!-- 		<h5>Start Up Pitch</h5> -->
 				<!-- 	</div> -->
-				<!-- 	<div class="content"> -->
-				<!-- 		<h3>Start Up Pitch</h3> -->
+				<!-- 	<div class="info"> -->
 				<!-- 		<p> -->
 				<!-- 			<ul> -->
 				<!-- 				<li>💵 <b>Free</b> Entry</li> -->
@@ -208,17 +213,17 @@
 				<!-- 			</ul> -->
 				<!-- 		</p> -->
 				<!-- 		<div class="register-now-btn"> -->
-				<!-- 			<a href="https://tinyurl.com/bits24reg">Register Now</a> -->
+				<!-- 			<a href="https://tinyurl.com/bits24reg" class="btn">Register Now</a> -->
 				<!-- 		</div> -->
 				<!-- 	</div> -->
 				<!-- </div> -->
 
-				<div class="card">
-					<div class="image">
+				<div data-aos="fade-up" class="card">
+					<div class="image flex">
 						<img src="assets/song-logo.jpeg" alt="">
+						<h5>Guess The Song</h5>
 					</div>
-					<div class="content">
-						<h3>Guess The Song</h3>
+					<div class="info">
 						<p>
 							<ul>
 								<li>💵 <b>Free</b> Entry</li>
@@ -226,17 +231,17 @@
 							</ul>
 						</p>
 						<div class="register-now-btn">
-							<a href="https://tinyurl.com/bits24reg">Register Now</a>
+							<a href="https://tinyurl.com/bits24reg" class="btn">Register Now</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="card">
-					<div class="image">
+				<div data-aos="fade-up" class="card">
+					<div class="image flex">
 						<img src="assets/treasure_hunt.jfif" alt="">
+						<h5>Treasure Hunt</h5>
 					</div>
-					<div class="content">
-						<h3>Treasure Hunt</h3>
+					<div class="info">
 						<p>
 							<ul>
 								<li>💵 <b>Rs. 40/-</b> per Group</li>
@@ -244,17 +249,17 @@
 							</ul>
 						</p>
 						<div class="register-now-btn">
-							<a href="https://tinyurl.com/bits24reg">Register Now</a>
+							<a href="https://tinyurl.com/bits24reg" class="btn">Register Now</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="card">
-					<div class="image">
+				<div data-aos="fade-up" class="card">
+					<div class="image flex">
 						<img src="assets/dum_charades.jfif" alt="">
+						<h5>Dum Charades</h5>
 					</div>
-					<div class="content">
-						<h3>Dum Charades</h3>
+					<div class="info">
 						<p>
 							<ul>
 								<li>💵 <b>Rs. 30/-</b> per Group</li>
@@ -262,17 +267,17 @@
 							</ul>
 						</p>
 						<div class="register-now-btn">
-							<a href="https://tinyurl.com/bits24reg">Register Now</a>
+							<a href="https://tinyurl.com/bits24reg" class="btn">Register Now</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="card">
-					<div class="image">
+				<div data-aos="fade-up" class="card">
+					<div class="image flex">
 						<img src="assets/meme_making.jfif" alt="">
+						<h5>Meme Making</h5>
 					</div>
-					<div class="content">
-						<h3>Meme Making</h3>
+					<div class="info">
 						<p>
 							<ul>
 								<li>💵 <b>Rs. 20/-</b></li>
@@ -280,17 +285,17 @@
 							</ul>
 						</p>
 						<div class="register-now-btn">
-							<a href="https://tinyurl.com/bits24reg">Register Now</a>
+							<a href="https://tinyurl.com/bits24reg" class="btn">Register Now</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="card">
-					<div class="image">
+				<div data-aos="fade-up" class="card">
+					<div class="image flex">
 						<img src="assets/Anime.jfif" alt="">
+						<h5>Anime Music Video</h5>
 					</div>
-					<div class="content">
-						<h3>AMV<br>(Anime Music Video)</h3>
+					<div class="info">
 						<p>
 							<ul>
 								<li>💵 <b>Rs. 20/-</b></li>
@@ -298,17 +303,17 @@
 							</ul>
 						</p>
 						<div class="register-now-btn">
-							<a href="https://tinyurl.com/bits24reg">Register Now</a>
+							<a href="https://tinyurl.com/bits24reg" class="btn">Register Now</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="card">
-					<div class="image">
+				<div data-aos="fade-up" class="card">
+					<div class="image flex">
 						<img src="assets/stumbleguylogo.jfif" alt="">
+						<h5>Stumble Guys</h5>
 					</div>
-					<div class="content">
-						<h3>Stumble Guys</h3>
+					<div class="info">
 						<p>
 							<ul>
 								<li>💵 <b>Rs. 20/-</b></li>
@@ -316,7 +321,7 @@
 							</ul>
 						</p>
 						<div class="register-now-btn">
-							<a href="https://tinyurl.com/bits24reg">Register Now</a>
+							<a href="https://tinyurl.com/bits24reg" class="btn">Register Now</a>
 						</div>
 					</div>
 				</div>
@@ -324,9 +329,8 @@
 			</div>
 		</section>
 
-		<section class="sponsor-section">
-			<h3 class="sponsors-header">Our Sponsers</h3>
-			<h2>Powered By</h2>
+		<section data-aos="fade-up" class="sponsor-section">
+			<h2 class="sponsors-header">Our Sponsors</h2>
 			<div class="sponsors flex">
 				<a href="https://saiashirwad.com/">
 					<img src="assets/sponsors/sai-ashirwad.jpeg" alt="Sai Ashirwad Informatia">
@@ -343,7 +347,7 @@
 	</main>
 
 	<footer>
-		<div class="footer-head flex">
+		<div data-aos="fade-up" class="footer-head flex">
 			<div class="logo-back">
 				<a href="/">
 					<img class="logo" src="assets/vtc-logo.png" alt="logo" />
@@ -358,14 +362,14 @@
 			</div>
 		</div>
 		<div class="footer-body flex">
-			<span class="address">
+			<span data-aos="fade-up" class="address">
 				<h3>📍 Address</h3>
 				<p>Vidyavardhini's Annasaheb Vartak College,<br>
 				Vasai Road (W),<br>
 				Dist. Palghar – 401202.<br>
 				Maharashtra, India</p>
 			</span>
-			<span class="contact-details">
+			<span data-aos="fade-up" class="contact-details">
 				<h3>📞 Contact Details</h3>
 				<table>
 					<tr><td>Rishabh Gupta</td> <td>+91 9579191324</td></tr>
