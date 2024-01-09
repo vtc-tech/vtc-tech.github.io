@@ -161,7 +161,7 @@ section {
 .card {
 	width: 50vh;
 	height: 50vh;
-	margin: 20px;
+	margin: 3vh;
 	padding: 2rem 1rem;
 	border-radius: 4vh;
 	background-color: #fff;
@@ -355,6 +355,11 @@ footer .footer-body span {
 	h5 { font-size: 4.5vw; }
 	h6 { font-size: 4vw; }
 
+	section {
+		margin: 10vh 4vw;
+		padding: 4vh 0vh;
+	}
+
 	.logo {
 		width: 10vh;
 		height: 10vh;
@@ -406,7 +411,7 @@ footer .footer-body span {
 
 	.card {
 		height: 40vh;
-		height: 40vh;
+		margin: 3vh 1.5vh;
 	}
 
 	.card:hover .info {
@@ -419,9 +424,9 @@ footer .footer-body span {
 		font-size: 3vh;
 	}
 
-	.info {
-		font-size: 2.5vh;
-	}
+	/* .info { */
+	/* 	font-size: 2.5vh; */
+	/* } */
 
 	.event-header {
 		font-size: 5vh;
@@ -452,7 +457,3 @@ footer .footer-body span {
 	}
 
 }
-
-/* @media screen and (max-width: 1200px) { */
-/* 	p { font-size: 4vh; } */
-/* } */
