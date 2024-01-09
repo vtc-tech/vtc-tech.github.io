@@ -21,8 +21,23 @@ a {
 	text-decoration: none;
 }
 
+
 header {
 	overflow: hidden;
+	margin: 4vh 8vw;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header nav {
+	float: right;
+}
+
+header nav a {
+	margin: 2vw;
+	float: right;
 }
 
 .title {
@@ -38,43 +53,23 @@ header {
 	margin-top: 2vh;
 }
 
-header nav {
-	position: relative;
-	float: right;
-}
-
-header nav a {
-	position: relative;
-	float: right;
-	right: 8vh;
-}
-
-main img {
-	position: relative;
-	height: auto;
-	width: 100%;
+.header-section b {
+	color: #be0bd7;
 }
 
 .logo {
-	height: 20vh;
-	width: 20vh;
+	height: 16vh;
+	width: 16vh;
 }
 
 .logo-back {
-	margin-top: 2vh;
-	margin-left: 4vh;
+	margin-top: 4vh;
 	position: relative;
 	float: left;
-	height: 20vh;
-	width: 20vh;
+	height: 16vh;
+	width: 16vh;
 	background-color: #dddddd;
 	border-radius: 50%;
-}
-
-.vartak-logo {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 .register-btn {
@@ -92,7 +87,44 @@ main img {
 	text-decoration: none;
 }
 
+.vartak-logo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.vartak-text {
+	margin-top: 2vh;
+}
+
+.present-text {
+	margin-bottom: 0vh;
+}
+
+.nipun-text {
+	margin-top: 0vh;
+}
+
+.download-brochure {
+	font-size: 3vh;
+	color: #dddddd;
+	background-color: #1b60f4;
+	border-radius: 5vh;
+	padding: 1.5vh 4vh;
+}
+
+.download-brochure:hover {
+	background-color: #2b70f4;
+}
+
+main img {
+	position: relative;
+	height: auto;
+	width: 100%;
+}
+
 section {
+	margin: 10vh 4vw;
 	padding-top: 4vh;
 	padding-bottom: 4vh;
 	padding-left: 2vh;
@@ -170,15 +202,15 @@ section {
 
 .card .info {
 	position: relative;
-	z-index: 3;
 	color: black;
 	opacity: 0;
-	transform: translateY(20vh);
+	/* transform: translateY(20vh); */
 	transition: 0.5s all;
 }
 
 .card:hover .info {
 	opacity: 1;
+	z-index: 3;
 	transform: translateY(-50vh);
 	/* transform: translateY(-90px); */
 }
@@ -204,6 +236,10 @@ section {
 	margin-bottom: 20px;
 }
 
+.card .info a {
+	color: blue;
+}
+
 .image {
 	width: 100%;
 	height: 100%;
@@ -227,7 +263,6 @@ section {
 }
 
 .sponsor-section {
-	margin: 4vw;
 	background-image:
 		linear-gradient(rgba(0, 0, 0, 0.7),
 			rgba(0, 0, 0, 1)),
@@ -248,7 +283,7 @@ section {
 }
 
 .contact-details td {
-	padding: 0vh 1vh;
+	padding: 1vh 1vh;
 }
 
 footer {
@@ -257,7 +292,10 @@ footer {
 	padding-bottom: 10vh;
 	padding-right: 6vh;
 	padding-left: 6vh;
-	font-size: 3vh;
+}
+
+footer table {
+	text-align: left;
 }
 
 footer .footer-title {
@@ -291,10 +329,13 @@ footer .footer-body {
 	justify-content: space-around;
 }
 
+footer .footer-body span {
+	margin: 20px 0;
+}
+
 .icon {
 	margin: 0.5rem;
-	height: 1.2rem;
-	width: 1.2rem;
+	/* width: 3rem; */
 }
 
 .instagram-id {
@@ -304,7 +345,7 @@ footer .footer-body {
 
 @media screen and (max-width: 800px) {
 	body {
-		font-size: 3vh;
+		font-size: 2.3vh;
 	}
 
 	h1 { font-size: 8vw; }
@@ -315,19 +356,25 @@ footer .footer-body {
 	h6 { font-size: 4vw; }
 
 	.logo {
-		width: 12vh;
-		height: 12vh;
+		width: 10vh;
+		height: 10vh;
 	}
 
 	.logo-back {
-		width: 12vh;
-		height: 12vh;
+		width: 10vh;
+		height: 10vh;
 	}
 
 	.register-btn {
-		padding: 2vh;
 		font-size: 2.5vh;
-		right: 3vh;
+		padding: 2vh;
+		margin-top: 2vh;
+	}
+
+	.download-brochure {
+		font-size: 2vh;
+		padding: 1.5vh 2vh;
+		margin: 2vh;
 	}
 
 	.about-us-back {
@@ -346,7 +393,7 @@ footer .footer-body {
 	}
 
 	.about-us-section p {
-		font-size: 5vw;
+		font-size: 4.5vw;
 	}
 
 	.top-left {
@@ -392,12 +439,13 @@ footer .footer-body {
 		width: 30vh;
 	}
 
-	footer {
-		font-size: 2vh;
-		text-align: left;
-		padding: 2vh
+	.location iframe {
+		width: 100%;
 	}
 
+	footer {
+		padding: 20vh 0;
+	}
 
 	footer .title-header {
 		font-size: 3.5vh;
